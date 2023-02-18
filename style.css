@@ -3,8 +3,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* Header section */
 header {
   background-color: black;
+  border-bottom: solid 1px #444444;
 }
 .container {
   max-width: 989rem;
@@ -33,10 +35,16 @@ header {
   text-decoration: none;
   color: whitesmoke;
 }
-.logo {
-  float: right;
-  display: flex;
-  height: 12vw;
-  width: 12vw;
-  background-color: rgb(252, 247, 247);
+#github-logo {
+  top: 10px;
+  position: relative;
+}
+#github-logo img {
+  width: 10px;
+  height: 10px;
+  margin: none;
+  padding: none;
+}
+/* Main section */
+.aboutsection {
 }
